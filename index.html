@@ -5,18 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hospital Nueva Vida</title>
-
-  <!-- Íconos para PWA -->
-  <link rel="icon" type="image/png" href="/icons/android-chrome-192x192.png">
   <link rel="manifest" href="/manifest.json">
-
-  <!-- Meta para PWA -->
+  <link rel="preload" href="/styles.css" as="style">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="preload" href="/src/main.jsx" as="script">
+  <meta name="description" content="Hospital Nueva Vida - Sistema de gestión de citas médicas">
+  <meta name="keywords" content="hospital, citas médicas, doctores, pacientes">
   <meta name="theme-color" content="#004aad">
 </head>
 
 <body>
   <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script> <!-- Agregado -->
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 
 </html>
